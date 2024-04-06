@@ -21,9 +21,7 @@ The PowerShell script ```DeployBlobStorage.ps1``` will deploy Azure Blob Storage
 ```
 
 ###### console output
-```console
-Azure Blob Storage deployment completed with versioning and soft delete configured.
-```
+![output](/images/output.png)
 
 ### Resources
 
@@ -31,3 +29,7 @@ Azure Blob Storage deployment completed with versioning and soft delete configur
 - https://stackoverflow.com/questions/24156451/powershell-the-term-is-not-recognized-as-cmdlet-function-script-file-or-operable
 - https://www.youtube.com/watch?v=_szh3XCyTo0
 - https://github.com/Azure/azure-powershell
+- https://learn.microsoft.com/en-us/answers/questions/938968/check-if-im-logged-to-azure-or-not-using-powershel
+- https://stackoverflow.com/questions/44051241/how-to-catch-exceptions-on-powershell
+- https://stackoverflow.com/questions/37598086/check-if-azure-resource-group-exist-azure-powershell
+- https://stackoverflow.com/questions/72780424/stop-return-information-returning-when-using-set-azstorageblobcontent
