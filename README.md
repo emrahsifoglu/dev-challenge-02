@@ -21,7 +21,21 @@ The PowerShell script ```DeployBlobStorage.ps1``` will deploy Azure Blob Storage
 ```
 
 ###### console output
-![output](/images/output.png)
+![deploy](/images/deploy.png)
+
+### Testing
+#### Install Pester Module
+Run the command below in a PowerShell to install the Pester module:
+```ps
+Install-Module -Name Pester -Force -SkipPublisherCheck
+```
+#### Invoke Pester Test
+###### run
+```ps
+./PesterTest.ps1
+```
+###### console output
+![test](/images/test.png)
 
 ### Resources
 
@@ -33,3 +47,5 @@ The PowerShell script ```DeployBlobStorage.ps1``` will deploy Azure Blob Storage
 - https://stackoverflow.com/questions/44051241/how-to-catch-exceptions-on-powershell
 - https://stackoverflow.com/questions/37598086/check-if-azure-resource-group-exist-azure-powershell
 - https://stackoverflow.com/questions/72780424/stop-return-information-returning-when-using-set-azstorageblobcontent
+- https://www.jorgebernhardt.com/soft-delete-azure-storage/
+
