@@ -56,13 +56,13 @@ The script ```InvokePester.ps1``` will run the ```PesterTest.ps1``` in tests fol
 
 ### Resources
 
-- https://learn.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-powershell
-- https://stackoverflow.com/questions/24156451/powershell-the-term-is-not-recognized-as-cmdlet-function-script-file-or-operable
-- https://www.youtube.com/watch?v=_szh3XCyTo0
-- https://github.com/Azure/azure-powershell
-- https://learn.microsoft.com/en-us/answers/questions/938968/check-if-im-logged-to-azure-or-not-using-powershel
-- https://stackoverflow.com/questions/44051241/how-to-catch-exceptions-on-powershell
-- https://stackoverflow.com/questions/37598086/check-if-azure-resource-group-exist-azure-powershell
-- https://stackoverflow.com/questions/72780424/stop-return-information-returning-when-using-set-azstorageblobcontent
-- https://www.jorgebernhardt.com/soft-delete-azure-storage/
-- https://learn.microsoft.com/en-us/answers/questions/162802/when-i-am-trying-to-connect-to-my-azure-portal-thr
+- [Manage storage account access keys](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-powershell)
+- [PowerShell The term is not recognized](https://stackoverflow.com/questions/24156451/powershell-the-term-is-not-recognized-as-cmdlet-function-script-file-or-operable)
+- [How to download Azure blobs using PowerShell](https://www.youtube.com/watch?v=_szh3XCyTo0)
+- [Microsoft Azure PowerShell](https://github.com/Azure/azure-powershell)
+- [Check if have a valid session or not](https://learn.microsoft.com/en-us/answers/questions/938968/check-if-im-logged-to-azure-or-not-using-powershel)
+- [How to catch exceptions on PowerShell?](https://stackoverflow.com/questions/44051241/how-to-catch-exceptions-on-powershell)
+- [Check If Azure Resource Group Exist](https://stackoverflow.com/questions/37598086/check-if-azure-resource-group-exist-azure-powershell)
+- [Stop return information returning when using Set-AzStorageBlobContent](https://stackoverflow.com/questions/72780424/stop-return-information-returning-when-using-set-azstorageblobcontent)
+- [How to enable soft delete in Azure Storage Services ](https://www.jorgebernhardt.com/soft-delete-azure-storage/)
+- [Unable to acquire token for tenant](https://learn.microsoft.com/en-us/answers/questions/162802/when-i-am-trying-to-connect-to-my-azure-portal-thr)
