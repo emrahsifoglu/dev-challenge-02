@@ -5,7 +5,7 @@ Import-Module Pester
 $context = Get-AzContext  
 
 if (!$context) {  
-    Connect-AzAccount  
+    Connect-AzAccount -UseDeviceAuthentication | Out-Null
 } else {
     Write-Host "Already connected"
 }

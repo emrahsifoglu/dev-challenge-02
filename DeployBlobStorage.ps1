@@ -1,9 +1,8 @@
-
 # Sign in to your Azure account
 $context = Get-AzContext  
 
 if (!$context) {  
-    Connect-AzAccount  
+    Connect-AzAccount -UseDeviceAuthentication | Out-Null
 } else {
     Write-Host "Already connected"
 }
